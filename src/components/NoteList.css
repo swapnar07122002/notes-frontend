@@ -1,0 +1,146 @@
+.notes-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #d32f2f;
+}
+
+.notes-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.upgrade-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.upgrade-btn:hover {
+  background: #125aa3;
+}
+
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.note-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.note-card:hover {
+  transform: scale(1.02);
+}
+
+.note-card h3 {
+  margin-top: 0;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit-btn {
+  background-color: #1976d2;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #125aa3;
+}
+
+.delete-btn {
+  background: #e53935;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #b71c1c;
+}
+
+.note-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.note-form input,
+.note-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.note-form input {
+  width: 150px;
+}
+
+.note-form textarea {
+  width: 300px;
+  height: 40px;
+  /* resize: none; */
+}
+
+.create-btn {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.create-btn:hover {
+  background: #308d33;
+}
+
